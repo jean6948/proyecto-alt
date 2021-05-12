@@ -7,7 +7,7 @@ p{
     margin-bottom: 20px;
 }
 header{
-    background: linear-gradient(to bottom,#FAD7A1,#E96D71);
+    background: linear-gradient(to bottom,#ffffff,#E96D71);
     width: 10.7em;
     height: 100%;
     position: fixed;
@@ -51,13 +51,13 @@ nav ul li{
 nav ul li a{
     display: block;
     padding: 20px;
-    color: #fff;
+    color: rgb(12, 12, 12);
     text-decoration: none;
     z-index: 998;
 }
 
 nav ul li:hover{
-    background: linear-gradient(to bottom,#FAD7A1,#e63d43);
+    background: linear-gradient(to bottom,#fff5e7,#e63d43);
 }
 
 .inf_contacto{
@@ -84,6 +84,3 @@ nav ul li:hover{
     color: black;
 }
 
-.contenido{
-    margin-left: 180px;
-}

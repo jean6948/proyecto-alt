@@ -1,0 +1,60 @@
+.contenido{
+    padding: 0;
+    margin-left: 170px;
+    width: 88%;
+    height: 100vh;
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/5211432/pexels-photo-5211432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.contenido .col_50{
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin: 2em;
+}
+
+.contenido .col_50 .text{
+    margin: 0;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+
+.contenido .col_50 .text h2{
+    padding-top: 6em;
+    text-align: center;    
+}
+
+.contenido .col_50 .button{
+    width: 100%;
+    height: 2em;
+    display: flex;
+}
+
+.contenido .col_50 .button a{
+    width: 100%;
+    padding-left: 11em;
+}
+
+.contenido .col_50 .button a input{
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding: 4px;
+}
+
+.contenido .col_50 .button a input:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom,#FAD7A1,#E96D71);
+}
