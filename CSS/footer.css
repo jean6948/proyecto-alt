@@ -40,37 +40,20 @@ footer{
 }
 
 .container__footer .filter .row:nth-child(1) .col_30:nth-child(1) ul li{
-    padding: 5px 10px;
-    font: 200 .7em/1 "Droid Sans", sans-serif;
-}
-
-.container__footer .filter .row:nth-child(1) .col_30:nth-child(1) ul li:nth-child(1){
-    color: rgb(15, 39, 83);
+    color: rgb(8, 8, 8);
+    padding: 15px 10px;
+    font: 200 .7em/.7 "Droid Sans", sans-serif;
+    list-style: none;
 }
 .container__footer .filter .row:nth-child(1) .col_30:nth-child(1) ul li:hover{
-    color: rgb(15, 39, 83);
+    color: rgb(83, 95, 93);
     cursor: pointer;
-    transition: .5s;
+    transition: 1s;
 }
 
 .container__footer .filter .row:nth-child(1) .col_30:nth-child(1){
     width: 30%;
     padding: 39px;
-}
-
-.container__footer .filter .row:nth-child(1) .col_30:nth-child(1){
-    list-style: none;
-}
-
-.container__footer .filter .row:nth-child(1) .col_30:nth-child(1) li{
-    padding: 5px 10px;
-    font: 500 1em/1 "Droid Sans", sans-serif;
-}
-
-.container__footer .filter .row:nth-child(1) .col_30:nth-child(1) li:hover{
-    color: rgb(8, 95, 247);
-    cursor: pointer;
-    transition: .5s;
 }
 
 .container__footer .filter .row:nth-child(1) .col_30:nth-child(2){
