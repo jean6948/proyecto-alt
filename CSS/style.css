@@ -7,7 +7,7 @@ p{
     margin-bottom: 20px;
 }
 header{
-    background-image: linear-gradient(to bottom right, #FDEB71, #92FFC0);
+    background-color: white;
     width: 10.7em;
     height: 100%;
     position: fixed;
@@ -23,15 +23,16 @@ header{
 }
 
 .container .logo img{
-    width: 150%;
-    height: 150%;
+    width: 120%;
+    height: 120%;
     margin-left: -7vh;
     margin-top: -5vh;
+    margin-bottom: -4vh;
     }
 
 
 nav{
-    float: left;  
+    float: left; 
 }
 
 nav ul{
