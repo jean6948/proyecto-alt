@@ -85,3 +85,58 @@ nav ul li a:hover{
     color: black;
 }
 
+/*--------inicio secccion media---------*/
+
+.part_2{   
+    width: 125vh;
+    height: 18em;
+    display: flex;
+    margin: 0 auto;
+}
+
+.part_2 .part_2_1{
+    margin-left: 2em;
+    display: flex;
+}
+
+.part_2 .part_2_1 .text{
+    font: 300 .8em/.8 "Droid Sans", sans-serif; 
+    margin: 1em 2em;
+}
+
+.part_2 .part_2_1 .image{
+    width: 85%;
+}
+
+.part_2 .part_2_1 .image img{
+    width: 100%;
+    border-radius: 50px;
+    
+}
+
+.part_3{   
+    width: 125vh;
+    height: 18em;
+    display: flex;
+    margin-left: 9em;
+}
+
+.part_3 .part_3_1{
+    margin-left: 2em;
+    display: flex;
+}
+
+.part_3 .part_3_1 .text{
+    font: 300 .8em/.8 "Droid Sans", sans-serif; 
+    margin: 1em 2em;
+}
+
+.part_3 .part_3_1 .image{
+    width: 85%;
+}
+
+.part_3 .part_3_1 .image img{
+    width: 100%;
+    border-radius: 50px;
+    
+}
