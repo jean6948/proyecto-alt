@@ -18,7 +18,7 @@ h2 {
     }
 
 #banner { 
-    background: url(https://i.ibb.co/3SNpSdc/IMG-1489.jpg) no-repeat fixed 100% 100%; 
+    background: url(https://images.pexels.com/photos/5428003/pexels-photo-5428003.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat fixed 100% 100%; 
     background-size: cover; 
     color: #fff; 
     height: 100%; 
@@ -26,7 +26,7 @@ h2 {
     }
 
 #bannertext { 
-    width: 24em; 
+    width: 100%; 
     position: absolute; 
     top: 30%; 
     left: 57%; 
@@ -36,9 +36,9 @@ h2 {
     }
 
 #content { 
-    max-width: 28em; 
+    max-width: 100%; 
     text-align: justify; 
-    margin: 0 auto; 
+    margin-left: 10em; 
     padding: 2em; 
     }
 

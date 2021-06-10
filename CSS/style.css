@@ -88,34 +88,36 @@ nav ul li a:hover{
 /*--------inicio secccion media---------*/
 
 .part_2{   
-    width: 125vh;
+    width: 100%;
     height: 18em;
     display: flex;
     margin: 0 auto;
 }
 
 .part_2 .part_2_1{
-    margin-left: 2em;
+    margin-left: 0;
     display: flex;
 }
 
 .part_2 .part_2_1 .text{
     font: 300 .8em/.8 "Droid Sans", sans-serif; 
-    margin: 1em 2em;
+    margin: 1em 0 0 18em;
+    direction: rtl;
 }
 
 .part_2 .part_2_1 .image{
-    width: 85%;
+    width: 40%;
 }
 
 .part_2 .part_2_1 .image img{
-    width: 100%;
+    width: 20em;
     border-radius: 50px;
+    margin-left: 7em;
     
 }
 
 .part_3{   
-    width: 125vh;
+    width: 100%;
     height: 18em;
     display: flex;
     margin-left: 9em;
@@ -128,15 +130,15 @@ nav ul li a:hover{
 
 .part_3 .part_3_1 .text{
     font: 300 .8em/.8 "Droid Sans", sans-serif; 
-    margin: 1em 2em;
+    margin: 1em 0 0 13em;
 }
 
 .part_3 .part_3_1 .image{
-    width: 85%;
+    width: 40%;
 }
 
 .part_3 .part_3_1 .image img{
-    width: 100%;
+    width: 20em;
     border-radius: 50px;
     
 }
