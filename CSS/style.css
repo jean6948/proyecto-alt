@@ -44,14 +44,15 @@ nav ul{
 
 nav ul li{
     float: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    font-weight: 700;
     z-index: 9999;
 }
 
 nav ul li a{
     display: block;
-    padding: 20px;
+    padding: 28px;
     color: rgb(12, 12, 12);
     text-decoration: none;
     z-index: 998;
@@ -100,7 +101,9 @@ nav ul li a:hover{
 }
 
 .part_2 .part_2_1 .text{
-    font: 300 .8em/.8 "Droid Sans", sans-serif; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    font-weight: 700;
     margin: 1em 0 0 18em;
     direction: rtl;
 }
@@ -129,8 +132,14 @@ nav ul li a:hover{
 }
 
 .part_3 .part_3_1 .text{
-    font: 300 .8em/.8 "Droid Sans", sans-serif; 
-    margin: 1em 0 0 13em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .7em;
+    font-weight: 700;
+    margin: 1em 0 0 9em;
+}
+
+.part_3 .part_3_1 .text p{
+    margin-left: -.1em;
 }
 
 .part_3 .part_3_1 .image{

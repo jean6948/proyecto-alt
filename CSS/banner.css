@@ -1,20 +1,33 @@
 main{
     width: 100%;
     height: 100vh;
+    margin: 0;
     }
 
 body {
-     background: #FFF; 
-     font: 400 1.5em/1.5 "Droid Serif", serif; 
+    background: #FFF; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 700; 
     }
 
 h1 { 
-    font: 700 2.8em/1.2 "Droid Sans", sans-serif; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700; 
+    margin-left: .4em;
+    }
+
+    p{
+        font-size: 1.5em;
+        margin-left: 1em;
     }
 
 h2 { 
-    font: 700 1.5em/1.5 "Droid Sans", sans-serif; 
-    margin: 1em 0; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 1em 0 0; 
     }
 
 #banner { 
@@ -23,16 +36,18 @@ h2 {
     color: #fff; 
     height: 100%; 
     width: 100%; 
+    box-sizing: border-box;
     }
 
 #bannertext { 
-    width: 100%; 
+    width: 90vh; 
     position: absolute; 
     top: 30%; 
-    left: 57%; 
+    left: 50%; 
     border: .5em solid #fff; 
     margin-left: -12em; 
     padding: 2em 0; 
+    box-sizing: border-box;
     }
 
 #content { 
@@ -43,5 +58,7 @@ h2 {
     }
 
 #content p { 
-    margin: 0 0 2em; 
+    margin: 0 0 2em 0; 
+    font-size: 1em;
+    padding: 1em;
     }
