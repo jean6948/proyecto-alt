@@ -252,7 +252,7 @@ footer{
 }
 
 .container__footer .col_30:nth-child(1) form{
-    width: 100%;
+    width: 85vh;
     display: flex;
     flex-direction: column;
     margin-left: 6em;
@@ -265,6 +265,7 @@ footer{
     margin-bottom: 10px;
     margin-left: 18em;
     align-items: center;
+    width: 100%;
 }
 
 .container__footer .col_30:nth-child(1) form input{
@@ -286,7 +287,7 @@ footer{
     font-size: 1em;
     font-weight: 700;
     border-radius: 20px;
-    margin-left: 23em;
+    margin-left: 35em;
 }
 
 .container__footer .col_30:nth-child(1) form button:hover{
@@ -303,7 +304,7 @@ footer{
 }
 
 .container__footer:nth-child(1) span{
-    width: 100%;
+    width: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: 700;

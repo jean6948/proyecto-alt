@@ -1,12 +1,12 @@
 footer{
     width: 100%;
     height: 60vh;
+    background-color: rgb(235, 232, 232);
 }
 
 .container__footer{
     width: 100%;
     height: 100%;
-    
 }
 
 .container__footer .col30{
@@ -17,7 +17,7 @@ footer{
 }
 
 .container__footer .col30 form{
-
+    margin: 0;
 }
 
 .container__footer .col30:nth-child(1){
@@ -27,20 +27,20 @@ footer{
 }
 
 .container__footer .col_30:nth-child(1) form{
-    width: 100%;
+    width: 85vh;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 0;
+    margin-left: 6em;
 }
 
 .container__footer .col_30:nth-child(1) form label{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.9em;
     font-weight: 700;
     margin-bottom: 10px;
-    margin-left: 15em;
+    margin-left: 11em;
     align-items: center;
+    width: 100%;
 }
 
 .container__footer .col_30:nth-child(1) form input{
@@ -48,7 +48,7 @@ footer{
     padding: 12px 0px;
     font-size: 1rem;
     width: 30em;
-    margin-left: 32em;
+    margin-left: 27em;
 }
 
 .container__footer .col_30:nth-child(1) form button{
@@ -62,29 +62,26 @@ footer{
     font-size: 1em;
     font-weight: 700;
     border-radius: 20px;
-    margin-left: 19em;
+    margin-left: 25em;
 }
 
 .container__footer .col_30:nth-child(1) form button:hover{
     cursor: pointer;
-    background-color: rgba(129, 131, 111, 0.24);
+    background-color: rgba(255, 255, 255, 0.24);
 
 }
 
-.container__footer .row:nth-child(1){
-    width: 60%;
-    margin: 1em 16em;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.container__footer .row:nth-child(1) span{
+.container__footer .copy{
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    margin: 1em 1em 0 0; 
+}
+
+.container__footer:nth-child(1) span{
+    width: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: 700;
-    color: black;
-    
+    margin-left: 20em;
 }

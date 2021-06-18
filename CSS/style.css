@@ -89,10 +89,10 @@ nav ul li a:hover{
 /*--------inicio secccion media---------*/
 
 .part_2{   
-    width: 100%;
+    width: 150vh;
     height: 18em;
     display: flex;
-    margin: 0 auto;
+    margin: auto 0;
 }
 
 .part_2 .part_2_1{
@@ -104,7 +104,7 @@ nav ul li a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: .7em;
     font-weight: 700;
-    margin: 1em 0 0 18em;
+    margin: 0 0 0 15em;
     direction: rtl;
 }
 
@@ -115,12 +115,12 @@ nav ul li a:hover{
 .part_2 .part_2_1 .image img{
     width: 20em;
     border-radius: 50px;
-    margin-left: 7em;
+    margin-left: 5em;
     
 }
 
 .part_3{   
-    width: 100%;
+    width: 150vh;
     height: 18em;
     display: flex;
     margin-left: 9em;
@@ -136,10 +136,13 @@ nav ul li a:hover{
     font-size: .7em;
     font-weight: 700;
     margin: 1em 0 0 9em;
+    width: 15em;
 }
 
 .part_3 .part_3_1 .text p{
-    margin-left: -.1em;
+    width: 10em;
+    text-align: left;
+    margin-left: auto;
 }
 
 .part_3 .part_3_1 .image{
@@ -149,5 +152,5 @@ nav ul li a:hover{
 .part_3 .part_3_1 .image img{
     width: 20em;
     border-radius: 50px;
-    
+    margin: 0;
 }

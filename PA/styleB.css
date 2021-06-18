@@ -87,13 +87,72 @@ nav ul li a:hover{
 
 /*--------inicio SECCION MEDIA---------*/
 
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+section{
+    width: 90%;
+    height: 100%;
+}
+
+section h2{
+    width: 80%;
+    text-align: center;
+    margin-left: 3.5em;
+    margin-top: 1em;
+    font-size: 4rem;
+    font-family: 'DM Sans', sans-serif;
+}
+
+section h2:hover{
+    cursor: pointer;
+    text-shadow: rgb(156, 147, 147) 5px 5px;
+    transition: 0.5s;
+}
+
+section p{
+    width: 80%;
+    text-align: justify;
+    margin-left: 9.5em;
+    margin-top: 3em;
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.card{
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    display: grid;
+    gap: 0 20px;
+    margin-left: 15em;
+    margin-top: 2em;
+}
+
+.card .card-item img{
+    width: 18em;
+    height: 100%;
+    transition: 0.4s ease-in;
+    border-radius: 10px;
+}
+
+.card-item:hover img{
+    width: 100%;
+    height: 200px;
+}
+
 /*--------fin SECCION MEDIA---------*/
 
 /*--------inicio FOOTER---------*/
 footer{
     width: 100%;
     height: 60vh;
-    background-color: rgb(235, 232, 232);
+    background-color: rgb(255, 255, 255);
 }
 
 .container__footer{
@@ -119,7 +178,7 @@ footer{
 }
 
 .container__footer .col_30:nth-child(1) form{
-    width: 100%;
+    width: 85vh;
     display: flex;
     flex-direction: column;
     margin-left: 6em;
@@ -132,6 +191,7 @@ footer{
     margin-bottom: 10px;
     margin-left: 18em;
     align-items: center;
+    width: 100%;
 }
 
 .container__footer .col_30:nth-child(1) form input{
@@ -153,7 +213,7 @@ footer{
     font-size: 1em;
     font-weight: 700;
     border-radius: 20px;
-    margin-left: 23em;
+    margin-left: 35em;
 }
 
 .container__footer .col_30:nth-child(1) form button:hover{
@@ -170,7 +230,7 @@ footer{
 }
 
 .container__footer:nth-child(1) span{
-    width: 100%;
+    width: 100vh;
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: 700;
